@@ -1,0 +1,14 @@
+# Documentation-only repository: keep local/secret files out
+.env*
+*.json
+*.log
+*.db
+*.sqlite*
+*.pem
+*.key
+*.p12
+*.py
+__pycache__/
+oauth/
+node_modules/
+.DS_Store

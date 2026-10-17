@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hermes Mail Collector · 앱 안내</title>
+<meta name="description" content="승인된 Gmail 계정의 운영 알림을 읽기 전용으로 확인하는 개인용 자동화 도구 안내입니다.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><a class="brand" href="./">Hermes Mail Collector</a><nav aria-label="주 메뉴"><a href="./" aria-current="page">앱 안내</a><a href="privacy.html">개인정보처리방침</a></nav></header>
+<main>
+<p class="eyebrow">개인용 · 읽기 전용 Gmail 자동화</p>
+<h1>허용한 운영 알림만,<br>지정한 곳으로.</h1>
+<p class="intro">Hermes Mail Collector는 운영자가 승인한 Gmail 계정에서 지정한 발신자와 운영 주제에 해당하는 알림을 확인합니다. 이 사이트는 앱 설명을 제공하며, 로그인이나 메일 수집을 수행하지 않습니다.</p>
+<section aria-labelledby="purpose"><h2 id="purpose">무엇을 하나요?</h2><p>수집기는 운영자 컴퓨터에서 Gmail API를 호출합니다. 검색 조건에 맞는 메시지의 발신자·제목·메시지 식별자를 확인하고, 이를 서비스 종류·오류 분류·알림 링크 등 제한된 정보로 정리합니다. 승인된 자동화는 이 결과를 요약하여 운영자가 지정한 비공개 보고 채널로 전달할 수 있습니다.</p></section>
+<section aria-labelledby="access"><h2 id="access">어떤 권한을 요청하나요?</h2><p>Google OAuth의 <code>gmail.readonly</code> 권한만 요청합니다. 이 권한 자체는 계정의 이메일을 읽을 수 있는 넓은 권한입니다. 실제 수집 범위는 별도의 발신자 허용목록과 운영 주제 검색 조건으로 제한합니다.</p><p>이 도구는 이메일을 보내거나 삭제하지 않으며, 읽음 상태나 라벨을 변경하지 않습니다. 기본 자동수집기는 메시지 본문과 첨부파일을 다운로드하지 않습니다.</p></section>
+<section aria-labelledby="control"><h2 id="control">접근은 직접 통제합니다.</h2><p>사용자는 각 계정의 Google 승인 화면에서 접근을 허용합니다. 언제든 Google 계정의 연결 관리 화면에서 앱 접근을 취소할 수 있습니다. 수집기는 승인된 계정의 신원이 일치하는지도 확인합니다.</p><p><a href="https://myaccount.google.com/connections">Google 계정 연결 관리</a> · <a href="privacy.html">데이터 처리 방식 자세히 보기</a></p></section>
+<section aria-labelledby="contact"><h2 id="contact">운영·문의</h2><p>개인 운영 프로젝트입니다. Google 또는 Nous Research가 제공하거나 검증한 공식 서비스가 아닙니다.</p><p>운영자: <a href="https://github.com/Saccharine1211">Saccharine1211</a><br>문의: <a href="https://github.com/Saccharine1211/hermes-mail-collector-info/issues">이 저장소의 GitHub Issues</a>. 공개 문의에 메일 내용·계정 주소·인증정보를 올리지 마세요.</p></section>
+</main>
+<footer>Hermes Mail Collector · <a href="privacy.html">개인정보처리방침</a></footer>
+</body></html>
